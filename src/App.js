@@ -1,18 +1,15 @@
 // @ts-nocheck
 import React from "react";
+import Hello from "./Hello";
+import Btn from "./Button";
 import "./App.css";
 
-/**
- * @param {{ subject: any; }} props
- */
-function App(props) {
-  const name = props;
-  // console.log(name);
+function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>Hello {props}</p>
-      </header>
+      <h2>Hello React, Amos Kibet here</h2>
+      <Hello />
+      <Btn />
     </div>
   );
 }
